@@ -9,7 +9,7 @@ cc14fd72dcac626751e283d893a5e419  usr/share/themes/Linux Mint/cinnamon/checkbox-
 374686ccc247aa18f0e008f948276dfd  usr/share/themes/Linux Mint/cinnamon/checkbox-off-focused.svg
 0541bc0b1200271756e599d14fd1c8e3  usr/share/themes/Linux Mint/cinnamon/checkbox-off.svg
 4c6c25539961fdf90da35f3ef58434e8  usr/share/themes/Linux Mint/cinnamon/checkbox.svg
-6d49d7a4dc4f0485cf32b3583b118f3e  usr/share/themes/Linux Mint/cinnamon/cinnamon.css
+67c904aa0eae1485a7f4879b6c3a4dbc  usr/share/themes/Linux Mint/cinnamon/cinnamon.css
 2d0594dd14699afb7114b757be9d4e7f  usr/share/themes/Linux Mint/cinnamon/close-window.svg
 701bbcdbb00eef63d4c9d5cbc9412c07  usr/share/themes/Linux Mint/cinnamon/close.svg
 02bd18753e2b631d43504075ecdd04cd  usr/share/themes/Linux Mint/cinnamon/corner-ripple.png
@@ -31,7 +31,7 @@ ebf95e6374cf14744e25e958b19f09fe  usr/share/themes/Linux Mint/cinnamon/radiobutt
 5a1c21fb989c55a85362cf3057fc17c1  usr/share/themes/Linux Mint/cinnamon/radiobutton.svg
 bf8d9c86d530cd6a449cb4dbad29bd8e  usr/share/themes/Linux Mint/cinnamon/running-indicator.svg
 4d06b0708a87b4155ec1f7dc99e92039  usr/share/themes/Linux Mint/cinnamon/source-button-border.svg
-e1134c0e07f913f08a7575af3d4fe1b0  usr/share/themes/Linux Mint/cinnamon/thumbnail.png
+e641cd4608d8922b2dc39622eaa4f21c  usr/share/themes/Linux Mint/cinnamon/thumbnail.png
 5d9e055d96ecd3a6fdeceef6c0611841  usr/share/themes/Linux Mint/cinnamon/toggle-off-intl.svg
 0d2ec545e96123c61b152940d519240f  usr/share/themes/Linux Mint/cinnamon/toggle-off-us.svg
 707ff541999f4fa76ab72539837e28be  usr/share/themes/Linux Mint/cinnamon/toggle-on-intl.svg

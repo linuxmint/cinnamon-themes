@@ -419,7 +419,7 @@ StScrollBar StButton#vhandle:hover
 .window-caption#selected {
   background-color: white;
   color: black;
-  font-weight: bold;
+  spacing: 25px;
 }
 
 .workspace-controls {
@@ -525,35 +525,68 @@ StScrollBar StButton#vhandle:hover
   background-gradient-direction: vertical
 }
 
+.workspace-overview-background-shade {
+  background-color: rgba(0,0,0,0.4);
+}
+
+.expo-workspace-thumbnail-frame {
+  border: 1px, rgba(64,64,64,0.9);
+  background-color: rgba(64,64,64,0.9);
+}
+
+.expo-workspace-thumbnail-frame#active {
+  border: 2px, rgba(32,32,32,0.9);
+  background-color: rgba(32,32,32,0.9);
+} 
+
 /* ===================================================================
- * ViewSelector 
+* Desklets (desklet.js)
+* ===================================================================*/
+.desklet {
+    color: #fff;
+}
+
+.desklet-with-borders {
+    border: 2px solid #a5a5a5;
+    background-color: rgba(80, 80, 80, 0.8);
+    color: #fff;
+    border-radius-bottomleft: 12px;
+    border-radius-bottomright: 12px;
+    border-radius-topleft: 12px;
+    border-radius-topright: 12px;
+}
+
+.desklet-with-borders-and-header {
+    border: 2px solid #a5a5a5;
+    background-color: rgba(80, 80, 80, 0.8);
+    color: #fff;
+    border-top: 1px;
+    border-radius-bottomleft: 12px;
+    border-radius-bottomright: 12px;
+}
+
+.desklet-header {
+    border-radius-topleft: 12px;
+    border-radius-topright: 12px;
+    font-size: 10.5pt;
+    border: 2px solid #a5a5a5;
+    border-bottom: 0px;
+    background-color: rgba(80, 80, 80, 0.8);
+    color: #fff;
+    padding: 6px;
+}
+
+.desklet-drag-placeholder { 
+    border: 2px solid #6daa00;
+    background-color: rgba(109,170, 0, 0.3);
+} 
+
+/* ===================================================================
+ * Clock Desklet (desklet.js) 
  * ===================================================================*/
+.clock-desklet-label {
+} 
 
-#viewSelector {
-    spacing: 1em;
-    font-size: 12pt;
-}
-
-#viewSelectorTabBar {
-    padding: 1em;
-}
-
-.view-tab-title {
-    color: #888a85;
-    font-weight: bold;
-    padding: 0px 0.75em;
-    height: 1.5em;
-}
-
-.view-tab-title:hover {
-    color: #bbb;
-}
-
-.view-tab-title:selected {
-    color: #000000;
-    background-color: #c2c7cd;
-    border-radius: 0.25em;
-}
 
 /* ===================================================================
  * Looking Glass 
@@ -1076,7 +1109,7 @@ StScrollBar StButton#vhandle:hover
 }
 
 .switcher-preview-backdrop {
-   background-color: rgba(0,0,0,0.7);
+   background-color: rgba(25,25,25,0.95);
 }
 
 /* ===================================================================
@@ -1166,6 +1199,11 @@ StScrollBar StButton#vhandle:hover
     selection-background-color: white;
     selected-color: black;
 }
+
+.run-dialog-completion-box { 
+    padding-left: 15px;
+    font-size: 10px;
+} 
 
 .run-dialog {
     border-radius: 8px;	
@@ -1836,6 +1874,22 @@ StScrollBar StButton#vhandle:hover
     max-width: 220px;
 }
 
+.sound-seek-box {
+   padding-left: 20px;
+}
+
+.sound-seek-box StLabel {
+   padding-top: 2px;
+}
+
+.sound-seek-box StIcon {
+   icon-size: 1em;
+}
+
+.sound-seek-slider {
+   width: 140px;
+} 
+
 .sound-volume-menu-item {
     padding: .4em 1.75em;
 }
@@ -1959,6 +2013,14 @@ StScrollBar StButton#vhandle:hover
 /* ===================================================================
  * Applets (applet.js) 
  * ===================================================================*/
+.applet-separator {
+  padding: 5px 4px;
+}
+
+.applet-separator-line {
+  width: 2px;
+  background: rgba(255,255,255,.5);
+} 
 
 .applet-box {
     padding-left: 3px;
@@ -2102,4 +2164,8 @@ StScrollBar StButton#vhandle:hover
    padding-top: 4px;
    font-size: 0.9em;
    box-shadow: none;
+}
+
+.flashspot {
+   background-color: white;
 }
