@@ -1,0 +1,34 @@
+cinnamon-themes (2013.04.30) olivia; urgency=low
+
+  * Removed themes (can now be downloaded from within Cinnamon)
+  * Renamed Nightlife Graphite to Linux Mint to avoid conflicts with original theme
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 30 Apr 2013 17:09:29 +0100
+
+cinnamon-themes (2012.11.06) nadia; urgency=low
+
+  * Fixed window list padding and shadow in Nightlife themes
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 06 Nov 2012 17:50:29 +0000
+
+cinnamon-themes (2012.10.20) nadia; urgency=low
+
+  * Updated themes for Cinnamon 1.6
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sat, 20 Oct 2012 11:40:11 +0100
+
+cinnamon-themes (2012.05.20) maya; urgency=low
+
+  * Better thumbnails in Nightlife themes
+  * Main menu closer to edge of the screen
+  * Rounder boxes
+  * Highlight on systray icons (same as applets)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sun, 20 May 2012 09:35:13 +0100
+
+cinnamon-themes (2012.05.13) maya; urgency=low
+
+  * Initial release
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sun,  13 May 2012 23:09:00 +0000
+
