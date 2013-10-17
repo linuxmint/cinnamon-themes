@@ -1,9 +1,0 @@
-Package: cinnamon-themes
-Version: 2013.04.30
-Architecture: all
-Maintainer: Clement Lefebvre <root@linuxmint.com>
-Installed-Size: 459
-Section: universe/gnome
-Priority: optional
-Description: Cinnamon themes
- A collection of the best themes available for Cinnamon.
