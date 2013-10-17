@@ -1,3 +1,9 @@
+cinnamon-themes (2013.10.17) petra; urgency=low
+
+  * Removed transition duration in menu category buttons
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 17 Oct 2013 12:58:53 +0100
+
 cinnamon-themes (2013.05.06) olivia; urgency=low
 
   * 1.8 compatible

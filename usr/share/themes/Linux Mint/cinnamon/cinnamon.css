@@ -87,6 +87,9 @@ StScrollBar StButton#vhandle:hover
     background-gradient-direction: vertical;
     background-gradient-start: rgba(255, 255, 255, 0.2);
     background-gradient-end: rgba(255, 255, 255, 0);
+    font-size: 8.5pt;
+    font-weight: normal;    
+    text-align: center;
 }
 
 .notification-button:hover,
@@ -1658,7 +1661,6 @@ StScrollBar StButton#vhandle:hover
     padding-left: 7px;
     padding-right: 7px;
     padding-bottom: 7px;
-    transition-duration: 75;         
 }
 
 .menu-category-button-greyed {
@@ -1681,7 +1683,6 @@ StScrollBar StButton#vhandle:hover
 	 background-gradient-end: rgba(70,70,70,1);
 	 box-shadow: inset 0px 0px 1px 1px rgba(120,120,120,1);
     border-radius: 4px;
-    transition-duration: 75;
 }
 
 .menu-category-button-label:ltr { 
