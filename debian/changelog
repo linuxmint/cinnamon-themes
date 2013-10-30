@@ -1,3 +1,10 @@
+cinnamon-themes (2013.10.30) petra; urgency=low
+
+  * Boxpointer
+  * Size adjustment for switches
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 30 Oct 2013 10:24:59 +0000
+
 cinnamon-themes (2013.10.17) petra; urgency=low
 
   * Removed transition duration in menu category buttons
