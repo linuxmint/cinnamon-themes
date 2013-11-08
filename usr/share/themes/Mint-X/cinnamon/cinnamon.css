@@ -1812,7 +1812,6 @@ StScrollBar StButton#vhandle:hover
 .window-list-item-box {
 	font-weight: bold; 
 	color: rgb(62,62,62);
-    padding-top: 1px;
 	padding-left: 4px;
 	padding-right: 4px;
 	border-image: url("hover-3.png") 6;
@@ -2075,7 +2074,6 @@ StScrollBar StButton#vhandle:hover
 	color: rgb(74,74,74);
     padding-left: 4px;
     padding-right: 4px;
-    padding-top: 1px;
     transition-duration: 150;
 }
 
