@@ -607,9 +607,6 @@ StScrollBar StButton#vhandle:hover
 .desklet-with-borders-and-header {
 	border-image: url("desklet.png") 6;
 	color: rgb(70,70,70);
-	border-radius: 4px;
-	border-radius-topleft: 0px;
-	border-radius-topright: 0px;
 	padding: 8px;
 }
 
