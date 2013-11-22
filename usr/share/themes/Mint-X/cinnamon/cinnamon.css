@@ -102,8 +102,6 @@ StScrollBar StButton#vhandle:hover
  * Shared button properties 
  * ===================================================================*/
 
-.notification-button,
-.notification-icon-button,
 .hotplug-notification-item, 
 .hotplug-resident-eject-button, {
     color: rgb(70,70,70);
@@ -113,37 +111,25 @@ StScrollBar StButton#vhandle:hover
     text-align: center;
 }
 
-.notification-button:hover,
-.notification-icon-button:hover, 
 .hotplug-notification-item:hover,
 .hotplug-resident-eject-button:hover {
     border-image: url("button-hover.png") 4;
 }
 
-.notification-button:focus,
-.notification-icon-button:focus, 
 .hotplug-notification-item:focus {
     border-image: url("button-focus.png") 4;
 }
 
-.notification-button:active,
-.notification-icon-button:active,
 .hotplug-notification-item:active, 
 .hotplug-resident-eject-button:active {
    	border-image: url("button-pressed.png") 4;
 }
 
-.notification-button:focus:hover,
-.notification-icon-button:focus:hover, 
 .hotplug-notification-item:focus:hover,
 .modal-dialog-button:focus:hover {
     border-image: url("button-focus-hover.png") 4;
 }
-
-.notification-button:focus:checked,
-.notification-button:focus:active,
-.notification-icon-button:focus:checked,
-.notification-icon-button:focus:active,  
+  
 .hotplug-notification-item:focus:checked,
 .hotplug-notification-item:focus:active {
     border-image: url("button-pressed.png") 4;
@@ -930,18 +916,18 @@ StScrollBar StButton#vhandle:hover
 
 #notification {
     font-size: 8.5pt;
-    border-image: url("bg-1.png") 6;
+    border-image: url("bg-4.png") 6;
     padding: 8px 8px 8px 8px;
     spacing-rows: 10px;
     spacing-columns: 10px;
     margin-from-right-edge-of-screen: 20px;    
     width: 34em;
-    color: rgb(70,70,70);
+    color: white;
 }
 
 #notification.multi-line-notification {
     padding-bottom: 8px;
-    color: rgb(70,70,70);
+    color: white;
 }
 
 /* We use row-span = 2 for the image cell, which prevents its height preferences to be
@@ -978,8 +964,20 @@ StScrollBar StButton#vhandle:hover
 }
 
 .notification-button {
-	border-image: url("button.png") 6;
-    border-radius: 18px;
+	border-image: url("button-2.png") 6;
+    font-size: 11pt;
+    padding: 4px 42px 5px;
+}
+
+.notification-button:hover {
+	border-image: url("button-2-hover.png") 6;
+    font-size: 11pt;
+    padding: 4px 42px 5px;
+}
+
+.notification-button:active,
+ .notification-button:checked {
+	border-image: url("button-2-pressed.png") 6;
     font-size: 11pt;
     padding: 4px 42px 5px;
 }
@@ -988,15 +986,23 @@ StScrollBar StButton#vhandle:hover
     padding: 3px 41px 4px;
 }
 
-#notification .cinnamon-link {
-    color: rgb(0,0,0);
-    text-decoration: underline;
-}
-
 .notification-icon-button {
 	border-image: url("button.png") 6;
     border-radius: 0px;
     padding: 5px;
+}
+
+.notification-icon-button:hover {
+	border-image: url("button-2-hover.png") 6;
+    font-size: 11pt;
+    padding: 4px 42px 5px;
+}
+
+.notification-icon-button:active,
+ .notification-icon-button:checked {
+	border-image: url("button-2-pressed.png") 6;
+    font-size: 11pt;
+    padding: 4px 42px 5px;
 }
 
 .notification-icon-button:focus {
@@ -2220,12 +2226,6 @@ StScrollBar StButton#vhandle:hover
 /* ===================================================================
  * User Applet
  * ===================================================================*/
- 
- .user-box {
-  	padding: .4em 0em;  
-  	padding-right: 3.6em;
-  	spacing: 6px;
-}
 
 .user-icon {  
   	background-color: rgb(236,236,236);
