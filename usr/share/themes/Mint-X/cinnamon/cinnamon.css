@@ -544,7 +544,7 @@ StScrollBar StButton#vhandle:hover
 .window-close-area {
 	background-image: url("trash.png");
 	height: 150px;
-	width: 226px;
+	width: 310px;
 }
 
 .icon-grid {
