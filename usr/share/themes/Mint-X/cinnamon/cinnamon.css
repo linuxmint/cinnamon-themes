@@ -2225,12 +2225,6 @@ StScrollBar StButton#vhandle:hover
 /* ===================================================================
  * User Applet
  * ===================================================================*/
- 
- .user-box {
-  	padding: .4em 0em;  
-  	padding-right: 3.6em;
-  	spacing: 6px;
-}
 
 .user-icon {  
   	background-color: rgb(236,236,236);
