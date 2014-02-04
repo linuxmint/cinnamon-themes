@@ -544,7 +544,7 @@ StScrollBar StButton#vhandle:hover
 .window-close-area {
 	background-image: url("trash.png");
 	height: 150px;
-	width: 226px;
+	width: 310px;
 }
 
 .icon-grid {
@@ -2222,8 +2222,7 @@ StScrollBar StButton#vhandle:hover
 /* ===================================================================
  * User Applet
  * ===================================================================*/
- 
- 
+
 .user-icon {  
   	background-color: rgb(236,236,236);
     border: 1px solid rgb(192,192,192);
