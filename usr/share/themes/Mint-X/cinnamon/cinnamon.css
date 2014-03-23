@@ -486,19 +486,19 @@ StScrollBar StButton#vhandle:hover
 }
 
 .workspace-add-button {
-    background-image:url("plus.png");
+    background-image: url("plus.png");
     height: 200px;
     width: 35px;
-    transition-duration: 150;
+    transition-duration: 100;
 }
 
 .workspace-add-button:hover {  
     background-image: url("plus-hover.png");
-    transition-duration: 150;
+    transition-duration: 100;
 }
 
 .workspace-close-button {
-    background-image: url("close.png");
+    background-image: url("close.svg");
     height: 35px;
     width: 35px;
     -cinnamon-close-overlap: 25px;
@@ -506,7 +506,7 @@ StScrollBar StButton#vhandle:hover
 }
 
 .workspace-close-button:hover { 
-	background-image: url("close-hover.png");
+	background-image: url("close-hover.svg");
 	transition-duration: 150;
 }
 
@@ -567,7 +567,11 @@ StScrollBar StButton#vhandle:hover
 }
 
 .expo-background {
-  	background-color: rgba(0,0,0,0.2);
+  	background: url("noise-texture-2.png");
+  	background-repeat: repeat;
+  	background-gradient-direction: radial;
+  	background-gradient-start: #4f4f4f;
+  	background-gradient-end: #363636;
 }
 
 .workspace-overview-background-shade {
@@ -575,19 +579,13 @@ StScrollBar StButton#vhandle:hover
 }
 
 .expo-workspace-thumbnail-frame {
-  	border: 5px transparent;
-  	border-right: 5px transparent;
-  	border-top: 5px transparent;
-  	border-left: 5px transparent;
-  	border-image: url("bg-1.png") 6;
+  	border: 11px transparent;
+  	border-image: url("workspace-shadow.png") 14;
 }
 
 .expo-workspace-thumbnail-frame#active {
-  	border: 5px transparent;
-  	border-right: 5px transparent;
-  	border-top: 5px transparent;
-  	border-left: 5px transparent;
-  	border-image: url("bg-2.png") 6;
+  	border: 11px transparent;
+  	border-image: url("workspace-shadow.png") 14;
 } 
 /* ===================================================================
 * Desklets (desklet.js)
@@ -2116,33 +2114,32 @@ StScrollBar StButton#vhandle:hover
 }
 
 .expo-workspaces-name-entry {
-	padding: 10px 15px;
-	border-image: url("bg-1.png") 6;
-	color: rgb(70,70,70);
+	border-image: url("expo-name-entry.png") 6;
+	padding: 8px 12px;
 	border-radius: 2px;
-	height: 15px;	
+	height: 15px;
+	color: rgba(255, 255, 255, .7);
 	text-align: center;
 	font-weight: bold;
 	selected-color: #fff;
-    caret-color: #2b2b2b;
+    caret-color: #fff;
     caret-size: 1px;
     selection-background-color: #accd8a;
 	transition-duration: 150;
 }
 
 .expo-workspaces-name-entry#selected {
-	color: rgb(70,70,70);
+	color: rgba(255, 255, 255, 1);
 	transition-duration: 150;
 }
 
 .expo-workspaces-name-entry#selected:focus {
-	color: rgb(70,70,70);
+	color: rgba(255, 255, 255, 1);
 	transition-duration: 150;
 }
 
 .expo-workspaces-name-entry:focus {
-	border-image: url("bg-2.png") 6;
-	color: rgb(44,44,44);
+	color: rgba(255, 255, 255, 1);
 	transition-duration: 150;
 }
 /* ===================================================================
