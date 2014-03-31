@@ -1635,6 +1635,11 @@ StScrollBar StButton#vhandle:hover
     max-width: 10px;   
 }
 
+.menu-application-button:highlighted {
+    /* This style is used in menu application buttons for applications which were newly installed */
+    font-weight: bold;
+}
+
 .menu-application-button-selected {
     padding-top: 7px;
     padding-left: 7px;
@@ -1646,6 +1651,11 @@ StScrollBar StButton#vhandle:hover
     background-gradient-end: rgba(70,70,70,0.5);
     box-shadow: inset 0px 0px 1px 1px rgba(120,120,120,1);
     border-radius: 4px;
+}
+
+.menu-application-button-selected:highlighted {
+    /* This style is used in menu application buttons for applications which were newly installed */
+    font-weight: bold;
 }
 
 .menu-application-button-label:ltr { 
