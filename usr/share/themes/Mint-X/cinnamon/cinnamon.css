@@ -79,24 +79,24 @@ StScrollBar StButton#vhandle:hover
  * ===================================================================*/
  
 .toggle-switch {
-	width: 72px;
+	width: 55px;
 	height: 22px;
 }
 
 .toggle-switch-us {
-	 border-image: url("control-assets/off-intl.png") 4;
+	 border-image: url("control-assets/switch-off.svg") 4;
 }
 
 .toggle-switch-intl {
-     border-image: url("control-assets/off-intl.png") 4;
+     border-image: url("control-assets/switch-off.svg") 4;
 }
 
 .toggle-switch-us:checked {
-	 border-image: url("control-assets/on-intl.png") 4;
+	 border-image: url("control-assets/switch-on.svg") 4;
 }
 
 .toggle-switch-intl:checked {
-     border-image: url("control-assets/on-intl.png") 4;
+     border-image: url("control-assets/switch-on.svg") 4;
 }
 /* ===================================================================
  * Shared button properties 
@@ -154,9 +154,9 @@ StScrollBar StButton#vhandle:hover
 
 .popup-menu-boxpointer {
     -arrow-border-radius: 4px;
-    -arrow-background-color: rgb(228,228,228);
+    -arrow-background-color: #ececec;
     -arrow-border-width: 1px;
-    -arrow-border-color: rgba(40,40,40,0.4);
+    -arrow-border-color: rgba(40,40,40,0.3);
     -arrow-base: 18px;
     -arrow-rise: 10px;
     -st-shadow: 0px -1px 2px 0px rgba(255,255,255,0.9);
@@ -197,15 +197,11 @@ StScrollBar StButton#vhandle:hover
 }
 
 .popup-submenu-menu-item:open {
-    background-color: rgba(70,70,70,0);
-    transition-duration: 150;
 }
 
 .popup-sub-menu {
-    background-color: rgb(236,236,236);
-    border: 1px solid rgb(192,192,192);
-    border-radius: 2px;
-    padding: 0.5em 0.1em;
+    border-image: url("background-assets/sub-menu.png") 4;
+    padding: 0.5em 0em;
 }
 
 .popup-sub-menu .popup-menu-item:ltr {
@@ -242,7 +238,7 @@ StScrollBar StButton#vhandle:hover
  */
  
 .popup-menu-content {
-	padding: 1em 0.1em;
+	padding: 1em 0;
 }
 
 .popup-menu-item {
@@ -251,7 +247,7 @@ StScrollBar StButton#vhandle:hover
 }
 
 .popup-menu-item:active {
-	border-image: url("misc-assets/hover-2.png") 6;
+	border-image: url("misc-assets/hover.png") 6;
 	color: #fff;
 }
 
@@ -2235,7 +2231,7 @@ StScrollBar StButton#vhandle:hover
   	background-color: rgb(236,236,236);
     border: 1px solid rgb(192,192,192);
     border-radius: 4px;
-    padding: 0.4em;
+    padding: 0.2em;
 }
 
 
