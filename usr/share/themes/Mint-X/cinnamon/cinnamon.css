@@ -261,7 +261,7 @@ StScrollBar StButton#vhandle:hover
 }
 
 .popup-separator-menu-item {
-	background-color: rgb(192,192,192);
+	background-color: rgb(210,210,210);
 	height: 1px;
 }
 
@@ -1820,33 +1820,28 @@ StScrollBar StButton#vhandle:hover
 	padding-left: 4px;
 	padding-right: 4px;
 	border-image: url("panel-assets/hover-3.png") 6;
-	transition-duration: 150;
 }
 
 .window-list-item-box:hover  {     
      border-image: url("panel-assets/hover-1.png") 6;
-     transition-duration: 150;
 }
 
 .window-list-item-box:active,
 .window-list-item-box:checked,
 .window-list-item-box:focus  {
 	 font-weight: bold;
-	 color: rgb(62,62,62);
+	 color: #fff;
      border-image: url("panel-assets/pressed.png") 6;
-     transition-duration: 0;
 }
 
 .window-list-item-box:checked:hover,
 .window-list-item-box:focus:hover,
 .window-list-item-box:active:hover  {     
      border-image: url("panel-assets/hover-pressed.png") 6;
-     transition-duration: 150;
 }
 
 .window-list-item-demands-attention {
      border-image: url("panel-assets/attention.png") 6;
-     transition-duration: 150;
 }
 /* ===================================================================
  * Sound Applet (status/volume.js)
@@ -1953,7 +1948,6 @@ StScrollBar StButton#vhandle:hover
     padding-right: 1px;
     font-weight: bold;
     padding-top: 5px;
-    transition-duration: 150;
 }
 
 .workspace-button:outlined {
@@ -1961,10 +1955,9 @@ StScrollBar StButton#vhandle:hover
     padding: 3px;    
     padding-right: 1px;
     background: rgba(200,200,200,1);
-    color: rgb(70,70,70);
+    color: #fff;
     font-weight: bold;
     padding-top: 5px;
-    transition-duration: 150;
 }
 
 .workspace-button:hover {
@@ -1975,7 +1968,6 @@ StScrollBar StButton#vhandle:hover
     padding-right: 1px;
     font-weight: bold;
     padding-top: 5px;
-	transition-duration: 150;
 }
 
 .workspace-button:outlined:hover {
@@ -1983,10 +1975,9 @@ StScrollBar StButton#vhandle:hover
     padding: 3px;    
     padding-right: 1px;
     background: rgba(200,200,200,1);
-    color: rgb(70,70,70);
+    color: #fff;
     font-weight: bold;
     padding-top: 5px;
-    transition-duration: 150;
 }
 /* ===================================================================
  * Panel Launchers Applet (panelLaunchers.js)
@@ -2080,12 +2071,10 @@ StScrollBar StButton#vhandle:hover
     padding-left: 4px;
     padding-right: 4px;
     padding-top: 1px;
-    transition-duration: 150;
 }
 
 .applet-box:hover {
     border-image: url("panel-assets/hover-1.png") 6;
-    transition-duration: 150;
 }
 
 .applet-box:active {
