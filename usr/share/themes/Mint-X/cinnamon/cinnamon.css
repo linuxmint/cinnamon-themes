@@ -1990,12 +1990,10 @@ StScrollBar StButton#vhandle:hover
 .panel-launcher {
     margin: 1px;
     padding: 2px;
-    transition-duration: 150;
 }
 
 .panel-launcher:hover {
-    border-image: url("hover-1.png") 6;
-    transition-duration: 150;
+    border-image: url("panel-assets/hover-1.png") 6;
 }
 
 .panel-launcher-add-dialog-content-box {
