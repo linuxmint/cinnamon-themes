@@ -453,7 +453,7 @@ StScrollBar StButton#vhandle:hover
 .window-caption#selected {
   	border-image: url("background-assets/bg-2.png") 6;
   	font-weight: bold;
-  	color: rgb(70,70,70);
+  	color: #fff;
   	spacing: 25px;
 }
 
