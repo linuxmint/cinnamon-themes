@@ -1,3 +1,9 @@
+cinnamon-themes (2014.04.10) qiana; urgency=medium
+
+  * Changes to Mint-X theme
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 10 Apr 2014 10:03:12 +0100
+
 cinnamon-themes (2013.11.25) petra; urgency=low
 
   * Removed metadata.json in Mint-X
