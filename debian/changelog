@@ -1,3 +1,9 @@
+cinnamon-themes (2014.09.30) rebecca; urgency=medium
+
+  * Replaced thumbnails with collages
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 30 Sep 2014 13:04:52 +0200
+
 cinnamon-themes (2014.04.10) qiana; urgency=medium
 
   * Changes to Mint-X theme
