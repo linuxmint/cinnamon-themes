@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="switch-on-2.svg"
+   sodipodi:docname="switch-on.svg"
    inkscape:export-filename="/home/joseph/.themes/Mint-X-3.8.2/gtk-3.0/assets/switch-off.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
@@ -385,11 +385,11 @@
       <stop
          id="stop3795"
          offset="0"
-         style="stop-color:#9ab87c;stop-opacity:1;" />
+         style="stop-color:#99c16f;stop-opacity:1;" />
       <stop
          id="stop3797-6"
          offset="1"
-         style="stop-color:#abcc89;stop-opacity:1;" />
+         style="stop-color:#accd8a;stop-opacity:1;" />
     </linearGradient>
     <linearGradient
        inkscape:collect="always"
@@ -459,17 +459,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.7372549"
      inkscape:pageshadow="2"
-     inkscape:zoom="4"
-     inkscape:cx="53.549496"
-     inkscape:cy="-32.403871"
+     inkscape:zoom="16"
+     inkscape:cx="35.437148"
+     inkscape:cy="0.23508019"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:snap-global="true"
-     inkscape:window-width="1600"
-     inkscape:window-height="852"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
      inkscape:window-x="0"
-     inkscape:window-y="23"
+     inkscape:window-y="26"
      inkscape:window-maximized="1"
      inkscape:snap-bbox="true">
     <inkscape:grid
@@ -492,7 +492,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
