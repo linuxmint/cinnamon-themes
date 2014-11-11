@@ -277,7 +277,7 @@ StScrollBar StButton#vhandle:hover
     -slider-height: 4px;
     -slider-background-color: rgba(0,0,0,0);
     -slider-border-color: rgba(0,0,0,0);
-    -slider-active-background-color: rgba(145,255,27,0.4);
+    -slider-active-background-color: #accd8a;
     -slider-active-border-color: rgba(0,0,0,0);
     -slider-border-width: 1px;
     -slider-handle-radius: 6px;
@@ -867,7 +867,7 @@ StScrollBar StButton#vhandle:hover
 }
 
 .calendar-day-base:active {
-    background: #aecd8f;
+    background: #accd8a;
     box-shadow: inset 0px 1px 2px 0px rgba(0,0,0,0.1);
     color: #fff;
 }
@@ -972,7 +972,7 @@ StScrollBar StButton#vhandle:hover
 }
 
 .notification-button {
-	border-image: url("button-assets/button.png") 6;
+	border-image: url("button-assets/button.png") 4;
     border-radius: 18px;
     font-size: 11pt;
     padding: 4px 42px 5px;
@@ -988,7 +988,7 @@ StScrollBar StButton#vhandle:hover
 }
 
 .notification-icon-button {
-	border-image: url("button-assets/button.png") 6;
+	border-image: url("button-assets/button.png") 4;
     border-radius: 0px;
     padding: 5px;
 }
@@ -1032,7 +1032,7 @@ StScrollBar StButton#vhandle:hover
 
 .hotplug-resident-mount:hover {
     background-color: rgba(255, 255, 255, 0.1);
-    color: #50a200;
+    color: #accd8a;
 }
 
 .hotplug-resident-mount-label {
@@ -1837,7 +1837,7 @@ StScrollBar StButton#vhandle:hover
 .window-list-item-box:checked:hover,
 .window-list-item-box:focus:hover,
 .window-list-item-box:active:hover  {     
-     border-image: url("panel-assets/hover-pressed.png") 6;
+     border-image: url("panel-assets/pressed.png") 6;
 }
 
 .window-list-item-demands-attention {
@@ -1951,7 +1951,7 @@ StScrollBar StButton#vhandle:hover
 }
 
 .workspace-button:outlined {
-    border-image: url("panel-assets/pressed-s.png") 6;
+    border-image: url("panel-assets/pressed.png") 6;
     padding: 3px;    
     padding-right: 1px;
     background: rgba(200,200,200,1);
@@ -1961,7 +1961,7 @@ StScrollBar StButton#vhandle:hover
 }
 
 .workspace-button:hover {
-	border-image: url("panel-assets/hover-s.png") 6; 
+	border-image: url("panel-assets/hover-1.png") 6; 
     color: rgb(70,70,70);
     border-color: rgba(200,200,200,1);
     padding: 3px;
@@ -1971,7 +1971,7 @@ StScrollBar StButton#vhandle:hover
 }
 
 .workspace-button:outlined:hover {
-    border-image: url("panel-assets/hover-pressed-s.png") 6;
+    border-image: url("panel-assets/pressed.png") 6;
     padding: 3px;    
     padding-right: 1px;
     background: rgba(200,200,200,1);
@@ -2157,19 +2157,19 @@ StScrollBar StButton#vhandle:hover
 .check-box StBin {
     width: 22px;
     height: 22px;
-    background-image: url("control-assets/checkbox-off.png");
+    background-image: url("control-assets/checkbox-unchecked.png");
 }
 
 .check-box:focus StBin {
-    background-image: url("control-assets/checkbox-off-focus.png");
+    background-image: url("control-assets/checkbox-unchecked.png");
 }
 
 .check-box:checked StBin {
-    background-image: url("control-assets/checkbox.png");
+    background-image: url("control-assets/checkbox-checked.png");
 }
 
 .check-box:focus:checked StBin {
-    background-image: url("control-assets/checkbox-focus.png");
+    background-image: url("control-assets/checkbox-checked.png");
 }
 
 .check-box StLabel {
