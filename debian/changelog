@@ -1,3 +1,9 @@
+cinnamon-themes (2014.11.18.1) rebecca; urgency=medium
+
+  * stop fullscreen windows from going behind the panel in some cases
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 18 Nov 2014 12:34:38 +0100
+
 cinnamon-themes (2014.11.18) rebecca; urgency=medium
 
   * Added new CSS properties to #notification to control the mouseover fade opacity level.
