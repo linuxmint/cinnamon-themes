@@ -315,7 +315,7 @@ StScrollBar StButton#vhandle:hover
 	box-shadow: 0px 0px 1px 1px rgba(40,40,40,0.4);
     color: #000;
     font-size: 9pt;
-    height: 26px;
+    height: 25px;
     padding: 0px;
 }
 
