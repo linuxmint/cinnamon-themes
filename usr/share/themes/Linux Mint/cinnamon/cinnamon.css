@@ -280,6 +280,18 @@ StScrollBar StButton#vhandle:hover
     box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.5);
 }
 
+#panel:highlight {
+    background-color: #aa5555;
+}
+.panel-dummy {
+    border: 1px solid rgba(120,120,120,0.9);
+    background-color: rgba(63,63,63,0.7);
+}
+.panel-dummy:entered {
+    border: 1px solid rgba(63,63,63,0.9);
+    background-color: rgba(120,120,120,0.7);
+}
+
 #panelLeft, #panelCenter {
     spacing: 4px;
 }
@@ -1176,6 +1188,34 @@ StScrollBar StButton#vhandle:hover
 
 .modal-dialog-button:focus {
     padding: 3px 31px 4px;
+}
+
+.info-osd {
+    font-size: 18pt;
+    border-radius: 8px;
+    background-color: rgba(63,63,63,0.9);
+    border: 1px solid rgba(120,120,120,1.0);
+    color: #babdb6;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.osd-window {
+    border-radius: 8px;
+    background-color: rgba(63,63,63,0.9);
+    border: 1px solid rgba(120,120,120,1.0);
+    color: white;
+    padding: 20px;
+    spacing: 5px;
+}
+
+.osd-window .level {
+    height: 0.7em;
+    border-radius: 0.3em;
+    background-color: rgba(190,190,190,0.2);
 }
 
 /* ===================================================================
@@ -2180,18 +2220,61 @@ StScrollBar StButton#vhandle:hover
 }
 
 /* ===================================================================
- * Snap/Tile OSD Popup
+ * Snap/Tile Chrome
  * ===================================================================*/
 
-.snap-osd {
-    font-size: 18pt;
-    border-radius: 24px;
-    background-color: rgba(55,55,55,0.9);
-    border: 2px solid rgba(90,90,90,1);
-    color: #fff;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    text-align: center;    
+.tile-preview,
+.tile-hud {
+    background-color: rgba(63,63,63,0.7);
+    border: 1px solid rgba(120,120,120,0.9);
+}
+
+.tile-preview.snap,
+.tile-hud.snap {
+    background-color: rgba(134, 134, 170, 0.5);
+    border: 1px solid rgba(85, 85, 85, 0.8);
+}
+
+.tile-hud:top {
+    border-top-width: 0px;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.tile-hud:bottom {
+    border-bottom-width: 0px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.tile-hud:left {
+    border-left-width: 0px;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.tile-hud:right {
+    border-right-width: 0px;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.tile-hud:top-left {
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-radius: 0px 0px 8px 0px;
+}
+
+.tile-hud:top-right {
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-radius: 0px 0px 0px 8px;
+}
+
+.tile-hud:bottom-left {
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-radius: 0px 8px 0px 0px;
+}
+
+.tile-hud:bottom-right {
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-radius: 8px 0px 0px 0px;
 }
