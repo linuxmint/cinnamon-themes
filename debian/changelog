@@ -1,3 +1,10 @@
+cinnamon-themes (2015.06.02) rafaela; urgency=medium
+
+  [ JosephMcc ]
+  * add theming for new cinnamon elements and fix insensitive menu items in the Mint-X themes
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 02 Jun 2015 15:10:49 +0200
+
 cinnamon-themes (2014.11.18.1) rebecca; urgency=medium
 
   * stop fullscreen windows from going behind the panel in some cases
