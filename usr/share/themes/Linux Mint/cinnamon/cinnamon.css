@@ -1967,6 +1967,11 @@ StScrollBar StButton#vhandle:hover
     
 }
 
+.workspace-switcher-box {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
 .workspace-button {
     width: 20px;
     height: 10px;   
