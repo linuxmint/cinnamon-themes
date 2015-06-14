@@ -1,12 +1,11 @@
 Source: cinnamon-themes
-Section: universe/gnome
+Section: gnome
 Priority: optional
 Maintainer: Clement Lefebvre <root@linuxmint.com>
-Build-Depends: debhelper (>= 5)
-Standards-Version: 3.7.2
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
 
 Package: cinnamon-themes
 Architecture: all
 Description: Cinnamon themes
  A collection of the best themes available for Cinnamon.
-
