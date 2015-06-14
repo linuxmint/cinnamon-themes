@@ -1,3 +1,20 @@
+cinnamon-themes (2015.06.14) rafaela; urgency=medium
+
+  [ darealshinji ]
+  * fix file permissions
+  * update Debian files
+
+  [ JosephMcc ]
+  * add theming for the about dialog box to all themes
+  * add a bit of padding around the workspace switcher
+  * Remove now unused selectors for Cinnamon looking glass
+  * Remove unused .hotplug-* selectors
+
+  [ Clement Lefebvre ]
+  * Fixed OSD look in Linux Mint theme (it looked more like the Cinnamon theme lately)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sun, 14 Jun 2015 12:13:01 +0200
+
 cinnamon-themes (2015.06.02) rafaela; urgency=medium
 
   [ JosephMcc ]
