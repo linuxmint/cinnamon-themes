@@ -1024,11 +1024,11 @@ StScrollBar StButton#vhandle:hover
 }
 
 .info-osd {
-    font-size: 18pt;
-    border-radius: 8px;
-    background-color: rgba(63,63,63,0.9);
-    border: 1px solid rgba(120,120,120,1.0);
-    color: #babdb6;
+    font-size: 24pt;
+    border-radius: 20px;
+    background-color: rgba(55,55,55,0.9);
+    border: 2px solid rgba(90,90,90,1.0);
+    color: #fff;
     padding-right: 20px;
     padding-left: 20px;
     padding-bottom: 20px;
@@ -1037,9 +1037,9 @@ StScrollBar StButton#vhandle:hover
 }
 
 .osd-window {
-    border-radius: 8px;
-    background-color: rgba(63,63,63,0.9);
-    border: 1px solid rgba(120,120,120,1.0);
+    border-radius: 24px;
+    background-color: rgba(55,55,55,0.9);
+    border: 2px solid rgba(90,90,90,1.0);
     color: white;
     padding: 20px;
     spacing: 5px;
