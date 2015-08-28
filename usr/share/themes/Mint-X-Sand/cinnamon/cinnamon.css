@@ -1183,7 +1183,7 @@ StScrollBar StButton#vhandle:hover
 }
 
 .switcher-preview-backdrop {
-   background-color: rgba(25,25,25,0.95);
+   background-color: rgba(25,25,25,0.65);
 }
 /* ===================================================================
  * Modal dialogs
