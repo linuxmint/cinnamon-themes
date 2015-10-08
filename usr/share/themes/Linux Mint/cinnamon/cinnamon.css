@@ -976,14 +976,15 @@ StScrollBar StButton#vhandle:hover
     color: #babdb6;
     box-shadow: 0px 0px 12px 6px rgba(0,0,0,1);
 
-    padding-right: 42px;
-    padding-left: 42px;
-    padding-bottom: 30px;
-    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .modal-dialog-button-box {
-    spacing: 21px;
+    spacing: 15px;
+    padding-top: 15px;
 }
 
 .modal-dialog-button {
