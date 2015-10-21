@@ -2165,24 +2165,18 @@ StScrollBar StButton#vhandle:hover
 /* Check Boxes */
 .check-box CinnamonGenericContainer {
     spacing: .2em;
-    min-height: 30px;
+    min-height: 18px;
     padding-top: 2px;
 }
 
-.check-box StBin {
-    width: 22px;
-    height: 22px;
-    background-image: url("control-assets/checkbox-unchecked.png");
-}
-
+.check-box StBin,
 .check-box:focus StBin {
+    width: 16px;
+    height: 16px;
     background-image: url("control-assets/checkbox-unchecked.png");
 }
 
-.check-box:checked StBin {
-    background-image: url("control-assets/checkbox-checked.png");
-}
-
+.check-box:checked StBin,
 .check-box:focus:checked StBin {
     background-image: url("control-assets/checkbox-checked.png");
 }
@@ -2193,24 +2187,18 @@ StScrollBar StButton#vhandle:hover
 
 .radiobutton CinnamonGenericContainer {
     spacing: .2em;
-    height: 26px;
+    height: 18px;
     padding-top: 2px;
 }
 
-.radiobutton StBin {
+.radiobutton StBin,
+.radiobutton:focus StBin {
     width: 16px;
     height: 16px;
     background-image: url("control-assets/radio-unselected.png");
 }
 
-.radiobutton:focus StBin {
-    background-image: url("control-assets/radio-unselected.png");
-}
-
-.radiobutton:checked StBin {
-    background-image: url("control-assets/radio-selected.png");
-}
-
+.radiobutton:checked StBin,
 .radiobutton:focus:checked StBin {
     background-image: url("control-assets/radio-selected.png");
 }
