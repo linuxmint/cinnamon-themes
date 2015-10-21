@@ -1,3 +1,18 @@
+cinnamon-themes (2015.10.21) rosa; urgency=medium
+
+  [ JosephMcc ]
+  * Linux Mint: Tweak the look of modal dialogs
+
+  [ Clement Lefebvre ]
+  * Reduced opacity of Alt-tab preview backdrop to 65%
+
+  [ JosephMcc ]
+  * Linux Mint: add some theming for the new workspace switcher
+  * Linux Mint: Clean up the styling of check and radio buttons
+  * Mint-X: Rework styling of check and radio buttons
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 21 Oct 2015 11:13:50 +0100
+
 cinnamon-themes (2015.06.14) rafaela; urgency=medium
 
   [ darealshinji ]
