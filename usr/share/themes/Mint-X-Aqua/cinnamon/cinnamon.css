@@ -1857,88 +1857,79 @@ StScrollBar StButton#vhandle:hover
  * Sound Applet (status/volume.js)
  * ===================================================================*/
  
-.sound-button-container {
-    padding-right: 3px;
-    padding-left: 3px;
-}
-
-.sound-button {
+.sound-player StButton {
     width: 22px;
-    height: 22px;
+    height: 13px;
     padding: 5px;
-    border-image: url("button-assets/button.png") 4;
+    color: #bbb;
 }
 
-.sound-button:hover {
-    border-image: url("button-assets/button-hover.png") 4;
+.sound-player StButton:small {
+    border: 1px solid transparent;
+    border-radius: 3px;
+    width: 16px;
+    height: 16px;
+    padding: 1px;
+    color: rgb(90, 90, 90);
 }
 
-.sound-button:active {
-    border-image: url("button-assets/button-pressed.png") 4;
+.sound-player StButton StIcon {
+    icon-size: 1.5em;
 }
 
-.sound-button StIcon {
-    icon-size: 1.4em;
-}
-
-.sound-track-infos {
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.sound-track-info {
-    padding-top: 2px;
-    padding-bottom: 2px;
-}
-
-.sound-track-info StIcon {
+.sound-player StButton:small StIcon {
     icon-size: 1em;
 }
 
-.sound-track-info StLabel {
-    padding-left: 5px;
-    padding-right: 5px;
+.sound-player StButton:hover,
+.sound-player StButton:active {
+    color: #fff;
 }
 
-.sound-track-box {  
-    padding-left: 15px;
-    padding-right: 15px;  
-    max-width: 220px;
+.sound-player StButton:small:hover {
+    color: rgb(70, 70, 70);
+    border-image: url("button-assets/button-hover.png") 4;
 }
 
-.sound-seek-box {
-   padding-left: 20px;
+.sound-player StButton:small:active {
+    color: rgb(70, 70, 70);
+    border-image: url("button-assets/button-pressed.png") 4;
 }
 
-.sound-seek-box StLabel {
-   padding-top: 4px;
+.sound-player .slider {
+    height: 0.5em;
+    -slider-height: 0.5em;
+    -slider-background-color: #7a7a7a;
+    -slider-border-color: rgba(0,0,0,0);
+    -slider-active-background-color: #6cabcd;
+    -slider-active-border-color: rgba(0,0,0,0);
+    -slider-border-width: 0px;
+    -slider-handle-radius: 0px;
 }
 
-.sound-seek-box StIcon {
-   icon-size: 1em;
+.sound-player StBoxLayout {
+    spacing: 0.5em;
 }
 
-.sound-seek-slider {
-   width: 140px;
-} 
-
-.sound-volume-menu-item {
-    padding: .4em 1.75em;
+.sound-player > StBoxLayout {
+    padding: 5px;
 }
 
-.sound-volume-menu-item StIcon {
-    icon-size: 1.14em;
-    padding-left: 8px;
-    padding-right: 8px;
+.sound-player-overlay {
+    width: 300px;
+    height: 70px;
+    padding: 15px;
+    spacing: 0.5em;
+    background: rgba(0,0,0,0.8);
+    color: #FFF;
 }
 
-.sound-playback-control {
-    padding-top: 5px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+.sound-player-overlay StBoxLayout {
+    padding-top: 2px;
+}
+
+.sound-player-generic-coverart {
+    background: rgba(0,0,0,0.2);
 }
 /* ===================================================================
  * Workspace Switcher applet (workspaceSwitcher.js)
@@ -1988,6 +1979,40 @@ StScrollBar StButton#vhandle:hover
     color: #fff;
     font-weight: bold;
     padding-top: 5px;
+}
+
+/* Controls the style when using the "Visual representation" option */
+.workspace-graph {
+    padding: 3px 4px 3px 4px;
+    spacing: 4px;
+}
+
+.workspace-graph .workspace {
+    border: 1px solid #111;
+    background-gradient-direction: vertical;
+    background-gradient-start: #444;
+    background-gradient-end: #5d5d5d;
+}
+
+.workspace-graph .workspace:active {
+    border: 1px solid #ccc;
+    background-gradient-direction: vertical;
+    background-gradient-start: #333;
+    background-gradient-end: #5d5d5d;
+}
+
+.workspace-graph .workspace .windows {
+    -active-window-background: rgba(140, 140, 140, 1.0);
+    -active-window-border: rgba(0, 0, 0, 0.7);
+    -inactive-window-background: rgba(140, 140, 140, 1.0);
+    -inactive-window-border: rgba(0, 0, 0, 0.7);
+}
+
+.workspace-graph .workspace:active .windows {
+    -active-window-background: rgba(108, 171, 205, 1.0);
+    -active-window-border: rgba(0, 0, 0, 0.9);
+    -inactive-window-background: rgba(170, 170, 170, 1.0);
+    -inactive-window-border: rgba(0, 0, 0, 0.7);
 }
 /* ===================================================================
  * Panel Launchers Applet (panelLaunchers.js)
