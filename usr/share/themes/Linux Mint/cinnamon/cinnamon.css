@@ -2128,7 +2128,7 @@ StScrollBar StButton#vhandle:hover
 
 .tile-preview.snap,
 .tile-hud.snap {
-    background-color: rgba(134, 134, 170, 0.5);
+    background-color: rgba(134, 170, 134, 0.5);
     border: 1px solid rgba(85, 85, 85, 0.8);
 }
 
