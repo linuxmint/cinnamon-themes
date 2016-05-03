@@ -1,3 +1,9 @@
+cinnamon-themes (2016.05.03) sarah; urgency=medium
+
+  * Linux Mint theme: Switch snap OSD tint from blue to green
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 03 May 2016 12:19:30 +0100
+
 cinnamon-themes (2016.04.22) sarah; urgency=medium
 
   * Fix sound applet -> applications -> volume sliders
