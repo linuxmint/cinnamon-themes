@@ -332,6 +332,15 @@ StScrollBar StButton#vhandle:hover
     spacing: 0px;
 }
 
+#panelLeft.vertical:ltr {
+    padding-right: 0px;
+}
+
+#panelLeft.vertical:rtl {
+    padding-left: 0px;
+}
+
+
 .panel-top {
 }
 
@@ -1657,6 +1666,13 @@ StScrollBar StButton#vhandle:hover
     padding-top: 1px;   
 }
 
+.window-list-box.vertical {
+	padding-left: 0px;
+    padding-right: 0px;
+	padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .window-list-item-label {
     font-weight: bold;
     width: 15em;
@@ -1674,6 +1690,16 @@ StScrollBar StButton#vhandle:hover
     padding-left: 5px;
     padding-right: 5px;
     transition-duration: 100;
+}
+.window-list-item-box.right {
+    border-radius: 4px 4px 4px 4px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.window-list-item-box.left {
+    border-radius: 4px 4px 4px 4px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .window-list-item-box:active,
