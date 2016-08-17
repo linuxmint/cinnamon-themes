@@ -609,6 +609,12 @@ StScrollBar StButton#vhandle:hover
 	color: rgb(70,70,70);   
 }
 
+.desklet:highlight,
+.desklet-with-borders:highlight,
+.desklet-with-borders-and-header:highlight {
+    background-color: #5b73c4;
+}
+
 .desklet-with-borders {
 	border-image: url("background-assets/bg-1.png") 6;
 	color: rgb(70,70,70);
@@ -2131,6 +2137,10 @@ StScrollBar StButton#vhandle:hover
 
 .applet-box:hover {
     border-image: url("panel-assets/hover-1.png") 6;
+}
+
+.applet-box:highlight {
+    background-color: #5b73c4;
 }
 
 .applet-box:active {
