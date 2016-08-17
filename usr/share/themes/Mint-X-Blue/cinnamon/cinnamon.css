@@ -363,6 +363,14 @@ StScrollBar StButton#vhandle:hover
     spacing: 0px;
 }
 
+#panelLeft.vertical:ltr {
+    padding-right: 0px;
+}
+
+#panelLeft.vertical:rtl {
+    padding-left: 0px;
+}
+
 .panel-top {
 }
 
@@ -1817,6 +1825,12 @@ StScrollBar StButton#vhandle:hover
     spacing: 3px;
     padding-left: 0px;
 }
+.window-list-box.vertical {
+	padding-left: 0px;
+    padding-right: 0px;
+	padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 .window-list-item-label {
     width: 15em;
@@ -1831,7 +1845,16 @@ StScrollBar StButton#vhandle:hover
 	padding-right: 4px;
 	border-image: url("panel-assets/hover-3.png") 6;
 }
-
+.window-list-item-box.right {
+    border-radius: 4px 4px 4px 4px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.window-list-item-box.left {
+    border-radius: 4px 4px 4px 4px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
 .window-list-item-box:hover  {     
      border-image: url("panel-assets/hover-1.png") 6;
 }
