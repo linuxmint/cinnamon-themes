@@ -1891,6 +1891,10 @@ StScrollBar StButton#vhandle:hover
     padding: 1px;
 }
 
+#panel-launchers-box.vertical .panel-launcher {
+    border-bottom-width: 1px;
+}
+
 .panel-launcher:hover {
     background-gradient-direction: vertical;
     background-gradient-start: rgba(255,255,255,0.0);
