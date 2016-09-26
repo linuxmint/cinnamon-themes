@@ -595,6 +595,12 @@ StScrollBar StButton#vhandle:hover
     color: #fff;
 }
 
+.desklet:highlight,
+.desklet-with-borders:highlight,
+.desklet-with-borders-and-header:highlight {
+    background-color: #aa5555;
+}
+
 .desklet-with-borders {
     border: 2px solid #a5a5a5;
     background-color: rgba(80, 80, 80, 0.8);
@@ -2007,6 +2013,11 @@ StScrollBar StButton#vhandle:hover
 .applet-box:hover {
     color: #fff;
 }
+
+.applet-box:highlight {
+    background-color: #aa5555;
+}
+
 .applet-label { 
     font-weight: bold;
     color: #ccc;        
