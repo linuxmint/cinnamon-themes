@@ -1867,6 +1867,10 @@ StScrollBar StButton#vhandle:hover
     transition-duration: 300;
 }
 
+.workspace-button.vertical {
+    padding: 0px;
+}
+
 .workspace-button:outlined {
     padding: 1px;
     background: rgba(200,200,200,1);

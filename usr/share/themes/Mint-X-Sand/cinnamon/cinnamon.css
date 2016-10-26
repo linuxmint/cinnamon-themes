@@ -1989,34 +1989,26 @@ StScrollBar StButton#vhandle:hover
     padding-top: 5px;
 }
 
+.workspace-button.vertical {
+    padding: 0px;
+}
+
 .workspace-button:outlined {
     border-image: url("panel-assets/pressed.png") 6;
-    padding: 3px;    
-    padding-right: 1px;
     background: rgba(200,200,200,1);
     color: #fff;
-    font-weight: bold;
-    padding-top: 5px;
 }
 
 .workspace-button:hover {
     border-image: url("panel-assets/hover-1.png") 6; 
     color: rgb(70,70,70);
     border-color: rgba(200,200,200,1);
-    padding: 3px;
-    padding-right: 1px;
-    font-weight: bold;
-    padding-top: 5px;
 }
 
 .workspace-button:outlined:hover {
     border-image: url("panel-assets/pressed.png") 6;
-    padding: 3px;    
-    padding-right: 1px;
     background: rgba(200,200,200,1);
     color: #fff;
-    font-weight: bold;
-    padding-top: 5px;
 }
 
 /* Controls the style when using the "Visual representation" option */
