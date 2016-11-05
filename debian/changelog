@@ -1,3 +1,21 @@
+cinnamon-themes (2016.11.05) serena; urgency=medium
+
+  [ brownsr ]
+  * [3.2] Vertical panels
+
+  [ JosephMcc ]
+  * Linux Mint: Stop the panel launchers icons from moving on hover in vertical panels
+  * panel: Fix the direction of panel gradients
+
+  [ collinss ]
+  * Add applet/desklet highlighting to all themes
+
+  [ brownsr ]
+  * change tabs to spaces and a few other minor indentation changes. No functionality changes.
+  * improve the appearance of workspace switcher buttons in vertical panels
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sat, 05 Nov 2016 15:48:15 +0000
+
 cinnamon-themes (2016.05.03) sarah; urgency=medium
 
   * Linux Mint theme: Switch snap OSD tint from blue to green
