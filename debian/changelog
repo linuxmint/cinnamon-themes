@@ -1,3 +1,10 @@
+cinnamon-themes (2016.11.08) serena; urgency=medium
+
+  [ JosephMcc ]
+  * Linux Mint: Update for changes in Cinnamon 3.2
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 08 Nov 2016 13:09:13 +0000
+
 cinnamon-themes (2016.11.05) serena; urgency=medium
 
   [ brownsr ]
