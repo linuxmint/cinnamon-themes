@@ -1,3 +1,10 @@
+cinnamon-themes (2016.11.10) serena; urgency=medium
+
+  [ Odyseus ]
+  * Added support for Cinnamon 3.2 new menu class. Left old classes untouched for retro-compatibility. Removed trailing white spaces. Re-formatted the code to have a unified coding style.
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 10 Nov 2016 09:48:10 +0000
+
 cinnamon-themes (2016.11.08) serena; urgency=medium
 
   [ JosephMcc ]
