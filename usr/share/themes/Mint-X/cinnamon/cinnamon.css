@@ -330,6 +330,7 @@ StScrollBar StButton#vhandle:hover {
     color: #000;
     font-size: 9pt;
     height: 26px;
+    width: 32px;
     padding: 0px;
 }
 
