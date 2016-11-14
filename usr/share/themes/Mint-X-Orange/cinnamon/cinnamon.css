@@ -218,28 +218,28 @@ StScrollBar StButton#vhandle:hover {
 .popup-submenu-menu-item:open {
 }
 
-.popup-sub-menu {
+.popup-submenu {
     border-image: url("background-assets/sub-menu.png") 4;
     padding: 0.5em 0em;
 }
 
-.popup-sub-menu .popup-menu-item:ltr {
+.popup-submenu .popup-menu-item:ltr {
     padding-right: 1.75em;
 }
 
-.popup-sub-menu .popup-menu-item:rtl {
+.popup-submenu .popup-menu-item:rtl {
     padding-left: 1.75em;
 }
 
-.popup-sub-menu StScrollBar {
+.popup-submenu StScrollBar {
     padding: 4px;
 }
 
-.popup-sub-menu StScrollBar StBin#trough {
+.popup-submenu StScrollBar StBin#trough {
     background-color: rgba(0, 0, 0, 0)
 }
 
-.popup-sub-menu StScrollBar StBin#vhandle {
+.popup-submenu StScrollBar StBin#vhandle {
     background-color: rgb(216, 216, 216);
     border: 1px solid #949494;
     border-radius: 6px;

@@ -166,29 +166,29 @@ StScrollBar StButton#vhandle:hover
     background-color: rgba(70,70,70,0.7);
 }
 
-.popup-sub-menu {
+.popup-submenu {
     background-gradient-start: rgba(70,70,70,0.7);
     background-gradient-end: rgba(70,70,70,0.0);
     background-gradient-direction: vertical;
 }
 
-.popup-sub-menu .popup-menu-item:ltr {
+.popup-submenu .popup-menu-item:ltr {
     padding-right: 1.75em;
 }
 
-.popup-sub-menu .popup-menu-item:rtl {
+.popup-submenu .popup-menu-item:rtl {
     padding-left: 1.75em;
 }
 
-.popup-sub-menu StScrollBar {
+.popup-submenu StScrollBar {
     padding: 4px;
 }
 
-.popup-sub-menu StScrollBar StBin#trough {
+.popup-submenu StScrollBar StBin#trough {
     border-width: 0px;
 }
 
-.popup-sub-menu StScrollBar StBin#vhandle {
+.popup-submenu StScrollBar StBin#vhandle {
     background-color: #4c4c4c;
     border-width: 0px;
 }
