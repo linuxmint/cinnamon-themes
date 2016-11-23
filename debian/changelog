@@ -1,3 +1,13 @@
+cinnamon-themes (2016.11.23) serena; urgency=medium
+
+  [ JosephMcc ]
+  * Mint-X: Adjust the size of the panels
+
+  [ Clement Lefebvre ]
+  * Linux Mint: Restyle the sound applet
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 23 Nov 2016 11:03:42 +0000
+
 cinnamon-themes (2016.11.10) serena; urgency=medium
 
   [ Odyseus ]
