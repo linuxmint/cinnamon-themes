@@ -339,6 +339,15 @@ StScrollBar StButton#vhandle:hover {
     spacing: 4px;
 }
 
+.panel-left #panelLeft,
+.panel-left #panelRight,
+.panel-left #panelCenter,
+.panel-right #panelLeft,
+.panel-right #panelRight,
+.panel-right #panelCenter {
+    spacing: 0;
+}
+
 #panel:highlight {
     background-color: #accd8a;
 }
@@ -1873,41 +1882,93 @@ StScrollBar StButton#vhandle:hover {
     padding-top: 1px;
     padding-left: 4px;
     padding-right: 4px;
-    border-image: url("panel-assets/hover-3.png") 6;
+    border-image: url("panel-assets/hover-3.svg") 6;
 }
 
-.window-list-item-box.right {
-    border-radius: 4px 4px 4px 4px;
-    padding-left: 0px;
-    padding-right: 0px;
+.panel-top .window-list-item-box {
+    border-image: url("panel-assets/hover-3-top.svg") 6;
 }
 
-.window-list-item-box.left {
-    border-radius: 4px 4px 4px 4px;
+.panel-left .window-list-item-box {
     padding-left: 0px;
     padding-right: 0px;
+    border-image: url("panel-assets/hover-3-left.svg") 6;
+}
+
+.panel-right .window-list-item-box {
+    padding-left: 0px;
+    padding-right: 0px;
+    border-image: url("panel-assets/hover-3-right.svg") 6;
 }
 
 .window-list-item-box:hover {
-    border-image: url("panel-assets/hover-1.png") 6;
+    border-image: url("panel-assets/hover-1.svg") 6;
+}
+
+.panel-top .window-list-item-box:hover {
+    border-image: url("panel-assets/hover-1-top.svg") 6;
+}
+
+.panel-left .window-list-item-box:hover {
+    border-image: url("panel-assets/hover-1-left.svg") 6;
+}
+
+.panel-right .window-list-item-box:hover {
+    border-image: url("panel-assets/hover-1-right.svg") 6;
 }
 
 .window-list-item-box:active,
 .window-list-item-box:checked,
-.window-list-item-box:focus {
-    font-weight: bold;
-    color: #fff;
-    border-image: url("panel-assets/pressed.png") 6;
-}
-
+.window-list-item-box:focus,
 .window-list-item-box:checked:hover,
 .window-list-item-box:focus:hover,
 .window-list-item-box:active:hover {
-    border-image: url("panel-assets/pressed.png") 6;
+    font-weight: bold;
+    color: #fff;
+    border-image: url("panel-assets/pressed.svg") 6;
+}
+
+.panel-top .window-list-item-box:active,
+.panel-top .window-list-item-box:checked,
+.panel-top .window-list-item-box:focus,
+.panel-top .window-list-item-box:checked:hover,
+.panel-top .window-list-item-box:focus:hover,
+.panel-top .window-list-item-box:active:hover {
+    border-image: url("panel-assets/pressed-top.svg") 6;
+}
+
+.panel-left .window-list-item-box:active,
+.panel-left .window-list-item-box:checked,
+.panel-left .window-list-item-box:focus,
+.panel-left .window-list-item-box:checked:hover,
+.panel-left .window-list-item-box:focus:hover,
+.panel-left .window-list-item-box:active:hover {
+    border-image: url("panel-assets/pressed-left.svg") 6;
+}
+
+.panel-right .window-list-item-box:active,
+.panel-right .window-list-item-box:checked,
+.panel-right .window-list-item-box:focus,
+.panel-right .window-list-item-box:checked:hover,
+.panel-right .window-list-item-box:focus:hover,
+.panel-right .window-list-item-box:active:hover {
+    border-image: url("panel-assets/pressed-right.svg") 6;
 }
 
 .window-list-item-demands-attention {
-    border-image: url("panel-assets/attention.png") 6;
+    border-image: url("panel-assets/attention.svg") 6;
+}
+
+.panel-top .window-list-item-demands-attention {
+    border-image: url("panel-assets/attention-top.svg") 6;
+}
+
+.panel-left .window-list-item-demands-attention {
+    border-image: url("panel-assets/attention-left.svg") 6;
+}
+
+.panel-right .window-list-item-demands-attention {
+    border-image: url("panel-assets/attention-right.svg") 6;
 }
 
 /* ===================================================================
@@ -2011,22 +2072,40 @@ StScrollBar StButton#vhandle:hover {
     padding: 0px;
 }
 
-.workspace-button:outlined {
-    border-image: url("panel-assets/pressed.png") 6;
-    background: rgba(200, 200, 200, 1);
-    color: #fff;
-}
-
 .workspace-button:hover {
-    border-image: url("panel-assets/hover-1.png") 6;
+    border-image: url("panel-assets/hover-1.svg") 6;
     color: rgb(70, 70, 70);
     border-color: rgba(200, 200, 200, 1);
 }
 
-.workspace-button:outlined:hover {
-    border-image: url("panel-assets/pressed.png") 6;
+.panel-top .workspace-button:hover {
+    border-image: url("panel-assets/hover-1-top.svg") 6;
+}
+
+.panel-left .workspace-button:hover {
+    border-image: url("panel-assets/hover-1-left.svg") 6;
+}
+
+.panel-right .workspace-button:hover {
+    border-image: url("panel-assets/hover-1-right.svg") 6;
+}
+
+.workspace-button:outlined {
+    border-image: url("panel-assets/pressed.svg") 6;
     background: rgba(200, 200, 200, 1);
     color: #fff;
+}
+
+.panel-top .workspace-button:outlined {
+    border-image: url("panel-assets/pressed-top.svg") 6;
+}
+
+.panel-left .workspace-button:outlined {
+    border-image: url("panel-assets/pressed-left.svg") 6;
+}
+
+.panel-right .workspace-button:outlined {
+    border-image: url("panel-assets/pressed-right.svg") 6;
 }
 
 /* Controls the style when using the "Visual representation" option */
@@ -2070,13 +2149,37 @@ StScrollBar StButton#vhandle:hover {
     padding-left: 0px;
 }
 
-.panel-launcher {
-    margin: 1px;
-    padding: 2px;
+.panel-launchers {
+    spacing: 0;
 }
 
-.panel-launcher:hover {
-    border-image: url("panel-assets/hover-1.png") 6;
+.panel-launchers .launcher {
+    border: 1px solid transparent;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.panel-left .panel-launchers .launcher,
+.panel-right .panel-launchers .launcher {
+    padding: 0;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.panel-launchers .launcher:hover {
+    border-image: url("panel-assets/hover-1.svg") 6;
+}
+
+.panel-top .panel-launchers .launcher:hover {
+    border-image: url("panel-assets/hover-1-top.svg") 6;
+}
+
+.panel-left .panel-launchers .launcher:hover {
+    border-image: url("panel-assets/hover-1-left.svg") 6;
+}
+
+.panel-right .panel-launchers .launcher:hover {
+    border-image: url("panel-assets/hover-1-right.svg") 6;
 }
 
 .panel-launcher-add-dialog-content-box {
@@ -2154,8 +2257,26 @@ StScrollBar StButton#vhandle:hover {
     padding-top: 1px;
 }
 
+.applet-box.vertical {
+    padding: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 .applet-box:hover {
-    border-image: url("panel-assets/hover-1.png") 6;
+    border-image: url("panel-assets/hover-1.svg") 6;
+}
+
+.panel-top .applet-box:hover {
+    border-image: url("panel-assets/hover-1-top.svg") 6;
+}
+
+.panel-left .applet-box:hover {
+    border-image: url("panel-assets/hover-1-left.svg") 6;
+}
+
+.panel-right .applet-box:hover {
+    border-image: url("panel-assets/hover-1-right.svg") 6;
 }
 
 .applet-box:highlight {
