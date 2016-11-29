@@ -2265,18 +2265,22 @@ StScrollBar StButton#vhandle:hover {
     padding-bottom: 5px;
 }
 
+.applet-box:checked,
 .applet-box:hover {
     border-image: url("panel-assets/hover-1.svg") 6;
 }
 
+.panel-top .applet-box:checked,
 .panel-top .applet-box:hover {
     border-image: url("panel-assets/hover-1-top.svg") 6;
 }
 
+.panel-left .applet-box:checked,
 .panel-left .applet-box:hover {
     border-image: url("panel-assets/hover-1-left.svg") 6;
 }
 
+.panel-right .applet-box:checked,
 .panel-right .applet-box:hover {
     border-image: url("panel-assets/hover-1-right.svg") 6;
 }
@@ -2293,6 +2297,7 @@ StScrollBar StButton#vhandle:hover {
     color: rgb(66, 66, 66);
 }
 
+.applet-label:checked,
 .applet-label:hover {
     font-weight: bold;
 }
@@ -2302,6 +2307,8 @@ StScrollBar StButton#vhandle:hover {
 }
 
 .applet-icon:hover,
+.applet-icon:checked,
+.applet-box:checked > .applet-icon,
 .applet-box:hover > .applet-icon {
 }
 
