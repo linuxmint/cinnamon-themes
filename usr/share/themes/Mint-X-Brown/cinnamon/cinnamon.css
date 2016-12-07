@@ -279,7 +279,10 @@ StScrollBar StButton#vhandle:hover {
 }
 
 .popup-separator-menu-item {
-    background-color: rgb(210, 210, 210);
+    -gradient-height: 1px;
+    -gradient-start: rgb(210, 210, 210);
+    -gradient-end: rgb(210, 210, 210);
+    -margin-horizontal: 0;
     height: 1px;
 }
 
