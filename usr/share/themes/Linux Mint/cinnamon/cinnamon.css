@@ -430,6 +430,14 @@ StScrollBar StButton#vhandle:hover
     margin: 0px;
 }
 
+.system-status-icon.warning {
+    color: #e1da1a;
+}
+
+.system-status-icon.error {
+    color: #d54444;
+}
+
 #appMenu {
     spacing: 4px;
 }
@@ -2037,6 +2045,7 @@ StScrollBar StButton#vhandle:hover
     padding-left: 3px;
     padding-right: 3px;
     color: #ccc;
+    spacing: 3px;
     text-shadow: black 0px 0px 2px;
 }
 
