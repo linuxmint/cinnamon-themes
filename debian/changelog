@@ -1,3 +1,14 @@
+cinnamon-themes (2017.05.05) sonya; urgency=medium
+
+  [ JosephMcc ]
+  * Mint-X: Update for latest cinnamon changes
+  * Linux Mint: Update for the latest cinnamon changes
+
+  [ SteveMoto ]
+  * reformatting and fix themes – css (#49)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 05 May 2017 15:55:21 +0100
+
 cinnamon-themes (2016.12.07) serena; urgency=medium
 
   [ JosephMcc ]
