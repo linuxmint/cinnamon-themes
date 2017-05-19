@@ -81,9 +81,10 @@ StScrollBar StButton#vhandle:hover
 
 .notification-button, .notification-icon-button,
 .hotplug-notification-item, .hotplug-resident-eject-button,
-.modal-dialog-button {
+.modal-dialog-button,
+.sound-player-overlay StButton {
     color: white;
-    border: 1px solid #8b8b8b;
+    border: 1px solid rgba(120,120,120,1);
     background-gradient-direction: vertical;
     background-gradient-start: rgba(255, 255, 255, 0.2);
     background-gradient-end: rgba(255, 255, 255, 0);
@@ -94,20 +95,23 @@ StScrollBar StButton#vhandle:hover
 
 .notification-button:hover,
 .notification-icon-button:hover, .hotplug-notification-item:hover,
-.hotplug-resident-eject-button:hover, .modal-dialog-button:hover {
+.hotplug-resident-eject-button:hover, .modal-dialog-button:hover,
+.sound-player-overlay StButton:hover {
     background-gradient-start: rgba(255, 255, 255, 0.3);
     background-gradient-end: rgba(255, 255, 255, 0.1);
 }
 
 .notification-button:focus,
 .notification-icon-button:focus, .hotplug-notification-item:focus,
-.modal-dialog-button:focus {
+.modal-dialog-button:focus,
+.sound-player-overlay StButton:focus {
     border: 1px solid rgba(35,35,35,1);
 }
 
 .notification-button:active, .notification-icon-button:active,
 .hotplug-notification-item:active, .hotplug-resident-eject-button:active,
-.modal-dialog-button:active, .modal-dialog-button:pressed {
+.modal-dialog-button:active, .modal-dialog-button:pressed,
+.sound-player-overlay StButton:active {
     background-gradient-start: rgba(255, 255, 255, 0);
     background-gradient-end: rgba(255, 255, 255, 0.2);
 }
@@ -1873,6 +1877,23 @@ StScrollBar StButton#vhandle:hover
 
 .sound-player-generic-coverart {
     background: rgba(0, 0, 0, 0.2);
+}
+
+.sound-player-overlay {
+    width: 300px;
+    padding: 12px 16px;
+    spacing: 0.5em;
+    background-color: rgba(63,63,63,0.9);
+    border-top: 1px solid rgba(50,50,50,1);
+}
+
+.sound-player-overlay StButton {
+    padding: 6px 8px;
+    border-radius: 4px;
+}
+
+.sound-player-overlay StButton > StIcon {
+    icon-size: 16px;
 }
 
 /* ===================================================================
