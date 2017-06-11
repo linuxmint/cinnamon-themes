@@ -1232,14 +1232,12 @@ StScrollBar StButton#vhandle:hover {
     font-size: 10pt;
     border-image: url("background-assets/bg-1.png") 6;
     color: rgb(70, 70, 70);
-    padding-right: 42px;
-    padding-left: 42px;
-    padding-bottom: 30px;
-    padding-top: 30px;
+    padding: 20px;
 }
 
 .modal-dialog-button-box {
     spacing: 110px;
+    padding-top: 20px;
 }
 
 .modal-dialog-button {
@@ -1247,8 +1245,6 @@ StScrollBar StButton#vhandle:hover {
     font-size: 10pt;
     color: rgb(70, 70, 70);
     border-image: url("button-assets/button.png") 4;
-    margin-left: 10px;
-    margin-right: 10px;
     padding: 3px 31px 4px;
 }
 
@@ -1339,7 +1335,7 @@ StScrollBar StButton#vhandle:hover {
 .run-dialog {
     padding-right: 12px;
     padding-left: 12px;
-    padding-bottom: 20px;
+    padding-bottom: 0;
     padding-top: 20px;
 }
 
@@ -2433,14 +2429,11 @@ StScrollBar StButton#vhandle:hover {
  * About Dialog (applet.js and desklet.js)
  * ===================================================================*/
 .about-content {
-    width: 300px;
-    height: 150px;
-    spacing: 8px;
-    padding-bottom: 16px;
+    width: 500px;
 }
 
 .about-title {
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: bold;
 }
 
@@ -2453,21 +2446,22 @@ StScrollBar StButton#vhandle:hover {
 }
 
 .about-scrollBox {
+    height: 100px;
     border: solid 1px grey;
     border-radius: 4px;
 }
 
 .about-scrollBox-innerBox {
-    padding: 1.2em;
+    padding: 0.5em;
     spacing: 1.2em;
 }
 
 .about-description {
     padding-top: 4px;
+    padding-bottom: 8px;
 }
 
 .about-version {
-    padding-left: 7px;
 }
 
 /* ===================================================================
