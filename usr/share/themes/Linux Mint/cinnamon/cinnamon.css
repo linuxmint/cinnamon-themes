@@ -1053,16 +1053,11 @@ StScrollBar StButton#vhandle:hover
     background-gradient-end: rgba(50,50,50,1);
     color: #babdb6;
     box-shadow: 0px 0px 12px 6px rgba(0,0,0,1);
-
-    padding-right: 30px;
-    padding-left: 30px;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding: 20px;
 }
 
 .modal-dialog-button-box {
-    spacing: 15px;
-    padding-top: 15px;
+    padding-top: 20px;
 }
 
 .modal-dialog-button {
@@ -1074,8 +1069,6 @@ StScrollBar StButton#vhandle:hover
     background-gradient-end: rgba(60,60,60,1);
     border: 1px solid rgba(0,0,0,0);
     box-shadow: inset 0px 1px 0px 0px rgba(100,100,100,1);
-    margin-left: 10px;
-    margin-right: 10px;
     padding: 4px 32px 5px;
 }
 
@@ -1167,7 +1160,7 @@ StScrollBar StButton#vhandle:hover
     border-radius: 8px;
     padding-right: 21px;
     padding-left: 21px;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
     padding-top: 15px;
 }
 
@@ -2192,14 +2185,11 @@ StScrollBar StButton#vhandle:hover
  * ===================================================================*/
 
  .about-content {
-    width: 300px;
-    height: 150px;
-    spacing: 8px;
-    padding-bottom: 16px;
+    width: 500px;
 }
 
 .about-title {
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: bold;
 }
 
@@ -2212,21 +2202,23 @@ StScrollBar StButton#vhandle:hover
 }
 
 .about-scrollBox {
+    height: 100px;
     border: solid 1px grey;
     border-radius: 4px;
 }
 
 .about-scrollBox-innerBox {
-    padding: 1.2em;
+    padding: 0.5em;
     spacing: 1.2em;
 }
 
 .about-description {
     padding-top: 4px;
+    padding-bottom: 8px;
 }
 
 .about-version {
-    padding-left: 7px;
+    /*padding-left: 7px;*/
 }
 
 /* ===================================================================
