@@ -2256,14 +2256,6 @@ StScrollBar StButton#vhandle:hover {
 .applet-separator-line {
 }
 
-.applet-spacer {
-    border-image: none;
-}
-
-.applet-spacer:highlight {
-    background-color: #c15b58;
-}
-
 .applet-box {
     font-weight: bold;
     color: rgb(74, 74, 74);
