@@ -1793,7 +1793,7 @@ StScrollBar StButton#vhandle:hover
 
 .sound-player StButton {
     width: 22px;
-    height: 13px;
+    height: 22px;
     padding: 5px;
     color: #bbb;
 }
